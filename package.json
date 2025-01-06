@@ -1,0 +1,31 @@
+{
+  "name": "read-book",
+  "version": "0.0.1",
+  "author": {
+    "name": "bing"
+  },
+  "description": "read book",
+  "repository": {
+    "type": "git",
+    "url": "http://git.sdp.nd/component-h5/virtual-anchor-control-js.git"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "axios": "1.7.9",
+    "chalk": "^5.3.0",
+    "deepseek-api-wrapper": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^20.11.19",
+    "tsx": "^4.7.0",
+    "typescript": "^5.7.2"
+  }
+}
